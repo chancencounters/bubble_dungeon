@@ -1,13 +1,14 @@
 ### Background
 
-Bubble Pitcher is a clone of the classic bubble pop game. This version will be survival style. After a designated amount of player moves, another row of bubbles will be generated. The player loses once a bubble touches line on the bottom. It utilizes vanilla Javascript, HTML5 and CreateJS.
+Bubble Pitcher is a clone of the classic bubble shooter game. This version will be survival style. After a designated amount of player moves, another row of bubbles will be generated. The player loses once a bubble touches line on the bottom. It utilizes vanilla Javascript, HTML5 and CreateJS.
 
 ### Functionality & MVP
 
  Users will be able to:
 
 - [ ] See their current score
-- [ ] Shoot bubbles and pop bubbles that match-3
+- [ ] Shoot bubbles
+- [ ] Pop bubbles that match-3
 
 In addition, this project will include:
 
@@ -54,7 +55,9 @@ In addition, this project will include:
 - Able to bounce off walls in the opposite direction.
 - Able to pop bubbles off the board when there is a match-3.
 
-**Day 4**:   Goals for the day:
+**Day 4**: Implement the logic for the shooter and controls for user.
+
+Goals for the day:
 
 - Have a shooter that can shoot bubbles at the staggered board.
 - Create controls for restarting the game.
