@@ -67,4 +67,4 @@ Goals for the day:
 
 Some added functionality in the future could include:
 
-- [ ] Adjusted difficult, increasing speed at which rows of bubbles appear.
+- [ ] Adjusted difficulty, increasing speed at which rows of bubbles appear.
