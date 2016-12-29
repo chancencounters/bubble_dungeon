@@ -4,23 +4,68 @@ html, body, div {
   border: 0;
 }
 
-
-.canvas-container {
-  background-image: url("./images/bg.jpeg");
-  background-size: cover;
-  height: 100vh;
+body {
+  position: fixed;
+  overflow-y: scroll;
+  width: 100%;
 }
 
 canvas {
   border: 1px solid black;
   background: black;
-  margin: 150px;
   opacity: .8;
   border-radius: 20px;
 }
 
-body {
-  position: fixed;
-  overflow-y: scroll;
-  width: 100%;
+.game-container {
+  background-image: url("./images/bg.jpeg");
+  background-size: cover;
+  height: 100vh;
+}
+
+.canvas-container {
+  width: 600px;
+  float: left;
+  margin-left: 100px;
+}
+
+.title {
+  padding-top: 90px;
+  padding-bottom: 20px;
+  font-size: 50px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.space_bar {
+  background-image: url("./images/space_bar.png");
+  background-size: cover;
+  height: 150px;
+  width: 150px;
+  margin-left: 120px;
+}
+
+.arrow_keys {
+  background-image: url("./images/arrows.png");
+  background-size: cover;
+  height: 150px;
+  width: 150px;
+  margin-left: 120px;
+}
+
+.instructions_title {
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.instructions_container {
+  margin-top: 100px;
+  display: block;
+  color: #ffffff;
+  font-size: 24px;
+  width: 400px;
+  float: right;
+  text-align: center;
+  margin-right: 100px;
 }
