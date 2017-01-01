@@ -24,9 +24,9 @@ canvas {
 }
 
 .canvas-container {
-  width: 600px;
+  width: 450px;
   float: left;
-  margin-left: 100px;
+  margin-left: 150px;
 }
 
 .title {
