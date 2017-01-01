@@ -1,6 +1,6 @@
 ### Background
 
-Bubble Pitcher is a clone of the classic bubble shooter game. This version will be turn based. The player needs to pop all the bubbles before the number of turns runs out. The player loses once they run out of turns or a bubble touches the bottom of the screen. It utilizes vanilla Javascript, HTML5 and CreateJS.
+Bubble Dungeon is a clone of the classic bubble shooter game. This version will be turn based. The player needs to pop all the bubbles before the number of turns runs out. The player loses once they run out of turns or a bubble touches the bottom of the screen. It utilizes vanilla Javascript, HTML5 and CreateJS.
 
 ### Functionality & MVP
 

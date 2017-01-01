@@ -1,5 +1,5 @@
 module.exports = {
-  entry: "./lib/bubble_pitcher.js",
+  entry: "./lib/bubble_dungeon.js",
   output: {
   	filename: "./lib/bundle.js"
   },

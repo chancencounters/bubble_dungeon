@@ -1,22 +1,22 @@
 {
-  "name": "bubble_pitcher",
+  "name": "bubble_dungeon",
   "version": "1.0.0",
-  "description": "Bubble Pitcher is a clone of the classic bubble shooter game. This version will be survival style. After a designated amount of player moves, another row of bubbles will be generated. The player loses once a bubble touches line on the bottom. It utilizes vanilla Javascript, HTML5 and CreateJS.",
+  "description": "Bubble Dungeon is a clone of the classic bubble shooter game. This version will be turnbased. The player loses once a bubble touches line on the bottom or the player runs out of moves. It utilizes vanilla Javascript, HTML5 and CreateJS.",
   "main": "demo.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zy101249/bubble_pitcher.git"
+    "url": "git+https://github.com/zy101249/bubble_dungeon.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/zy101249/bubble_pitcher/issues"
+    "url": "https://github.com/zy101249/bubble_dungeon/issues"
   },
-  "homepage": "https://github.com/zy101249/bubble_pitcher#readme",
+  "homepage": "https://github.com/zy101249/bubble_dungeon#readme",
   "dependencies": {
     "babel-core": "^6.21.0",
     "babel-loader": "^6.2.10",
