@@ -1,6 +1,6 @@
 # Bubble Dungeon
 
-[Live](bubbledungeon.herokuapp.com/)
+[Live](www.zackyu.com/bubble_dungeon)
 
 ![Bubble Dungeon](assets/images/bubble_dungeon.png)
 
