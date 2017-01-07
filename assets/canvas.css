@@ -38,7 +38,7 @@ canvas {
 .game-inner-container {
   margin: auto;
   width: 1200px;
-  height: 1000px;
+  height: 600px;
 }
 
 .canvas-container {
@@ -59,17 +59,17 @@ canvas {
 .space_bar {
   background-image: url("./images/space_bar.png");
   background-size: cover;
-  height: 150px;
-  width: 150px;
-  margin-left: 120px;
+  height: 100px;
+  width: 100px;
+  margin-left: 150px;
 }
 
 .arrow_keys {
   background-image: url("./images/arrows.png");
   background-size: cover;
-  height: 150px;
-  width: 150px;
-  margin-left: 120px;
+  height: 100px;
+  width: 100px;
+  margin-left: 150px;
 }
 
 .instructions_title {
@@ -87,4 +87,28 @@ canvas {
   float: right;
   text-align: center;
   margin-right: 100px;
+}
+
+.links {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-around;
+}
+
+.portfolio {
+  background: url("./images/portfolio.png") no-repeat;
+  background-position: center;
+  padding: 25px;
+}
+
+.github {
+  background: url("./images/github.png") no-repeat;
+  background-position: center;
+  padding: 25px;
+}
+
+.linkedin {
+  background: url("./images/linkedin.png") no-repeat;
+  background-position: center;
+  padding: 25px;
 }
