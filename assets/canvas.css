@@ -19,6 +19,7 @@ body {
   overflow-y: scroll;
   width: 100%;
   font-family: 'averia';
+  height: 100vh;
 }
 
 canvas {
@@ -33,27 +34,43 @@ canvas {
   background-image: url("./images/bg.jpeg");
   background-size: cover;
   height: 100vh;
+  position: relative;
 }
 
 .game-inner-container {
   margin: auto;
   width: 1200px;
   height: 600px;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
 }
 
 .canvas-container {
   width: 450px;
-  float: left;
-  margin-left: 150px;
 }
 
 .title {
-  padding-top: 90px;
   padding-bottom: 50px;
   font-size: 50px;
   color: gray;
   text-align: center;
   font-weight: bold;
+}
+
+.instructions_container {
+  display: block;
+  color: gray;
+  font-size: 24px;
+  width: 400px;
+  text-align: center;
+}
+
+.instructions_title {
+  text-decoration: underline;
+  font-weight: 600;
+  margin-bottom: 30px;
 }
 
 .space_bar {
@@ -70,23 +87,6 @@ canvas {
   height: 100px;
   width: 100px;
   margin-left: 150px;
-}
-
-.instructions_title {
-  text-decoration: underline;
-  font-weight: 600;
-  margin-bottom: 30px;
-}
-
-.instructions_container {
-  margin-top: 80px;
-  display: block;
-  color: gray;
-  font-size: 24px;
-  width: 400px;
-  float: right;
-  text-align: center;
-  margin-right: 100px;
 }
 
 .links {
