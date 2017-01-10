@@ -4,7 +4,7 @@
 
 ![Bubble Dungeon](assets/images/bubble_dungeon.png)
 
-Bubble Dungeon is a clone of the classic bubble shooter game. This version will be turn based. The player needs to pop all the bubbles before the number of turns runs out. The player loses once they run out of turns or a bubble touches the bottom of the screen. It utilizes vanilla Javascript, HTML5 and CreateJS.
+Bubble Dungeon is a clone of the classic bubble shooter game. This version is turn based, where the player needs to pop all the bubbles before the number of turns runs out. The player loses once they run out of turns or a bubble touches the bottom of the screen. It utilizes vanilla Javascript, HTML5 and CreateJS.
 
 ## How To Play
 
@@ -55,7 +55,7 @@ getBoardPosition() {
 }
 ```
 
-In order to pop bubbles, I had to find all the bubbles with matching colors. I had a `getNeighbors` function that returned all the neighbors of a bubble based on its position on the board.
+In order to pop bubbles, I employed a queue and breadth first search algorithm to get all the matching bubbles. I had a `getNeighbors` function that returned all the neighbors of a bubble based on its position on the board. A processed boolean property kept track of which bubbles had been processed.
 
 ``` JavaScript
 getNeighbors(bubble) {
@@ -80,8 +80,6 @@ getNeighbors(bubble) {
   return neighbors;
 }
 ```
-
-Each bubble has a processed boolean property to make sure each bubble on the grid was processed only once. The following function returns all the bubbles that had the same color.
 
 ```JavaScript
 findMatching(bubble){
